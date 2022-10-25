@@ -1,6 +1,6 @@
 # Menu Ordering System
 
-&copy Andrew Chang-DeWitt
+© Andrew Chang-DeWitt
 
 For the Evive Software Engineering Internship application take-home test.
 
