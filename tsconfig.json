@@ -18,18 +18,10 @@
     "skipLibCheck": true,
     /** named paths **/
     "paths": {
-      "$pages": [
-        "src/pages"
-      ],
-      "$pages/*": [
-        "src/pages/*"
-      ],
-      "$lib": [
-        "src/lib"
-      ],
-      "$lib/*": [
-        "src/lib/*"
-      ]
+      "$pages": ["src/pages"],
+      "$pages/*": ["src/pages/*"],
+      "$lib": ["src/lib"],
+      "$lib/*": ["src/lib/*"]
     },
     /** Strict Type-Checking Options */
     "strict": true,

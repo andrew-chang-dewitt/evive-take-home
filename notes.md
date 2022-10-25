@@ -20,9 +20,6 @@ And maybe if possible:
   - DB Wrapper
   - FastAPI
 
-
-
-
 # Maybe rethink the above
 
 The problem is really simple:
@@ -58,21 +55,25 @@ _**Bonus points:**_
 ### UML
 
 _**type MenuName**_
+
 ```
 "Breakfast" | "Lunch" | "Dinner"
 ```
 
 _**type OrderItem**_
+
 ```
 1 | 2 | 3 | 4
 ```
 
 _**module Parser**_
+
 ```
 # parse(string) -> [MenuName, OrderItem[]]
 ```
 
 _**obj MenuABC**_
+
 ```
 - items: string[]
 ---
@@ -82,13 +83,19 @@ _**obj MenuABC**_
 ```
 
 _**obj Breakfast extends MenuABC**_
+
 ```
+
 ```
 
 _**obj Lunch extends MenuABC**_
+
 ```
+
 ```
 
 _**obj Dinner extends MenuABC**_
+
 ```
+
 ```

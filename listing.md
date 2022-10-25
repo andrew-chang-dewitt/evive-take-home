@@ -6,7 +6,7 @@ Evive was founded by two people who wanted to challenge the status quo...and did
 
 At Evive, our team is building a data driven communications platform, empowering millions of people to take full advantage of their employer benefits.
 
-We are looking for a Software Engineer Intern to be a part of our product engineering organization.  You will join an existing agile engineering team, participating in all day to day activities as you help develop and deliver improvements to our core SaaS platform.
+We are looking for a Software Engineer Intern to be a part of our product engineering organization. You will join an existing agile engineering team, participating in all day to day activities as you help develop and deliver improvements to our core SaaS platform.
 
 ## If you had been here in the past few months you would have played a role in developing:
 

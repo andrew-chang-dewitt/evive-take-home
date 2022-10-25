@@ -1,7 +1,17 @@
-import parse from './parser'
+import parse from "./parser";
+import getMenu from "./menu";
 
-export default function take_order(order: string): string {
-  const parsed = parse(order)
+export default function takeOrder(order: string): string {
+  const [menuName, items] = parse(order);
+  const menu = getMenu(menuName);
 
-  return parsed as unknown as string
+  for (const item of items) {
+    menu.add(item);
+  }
+
+  try {
+    return menu.placeOrder();
+  } catch (error) {
+    return `Unable to process: ${error}`;
+  }
 }
